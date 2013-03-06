@@ -11,3 +11,6 @@ let g:fuf_coveragefile_prompt = '=>'
 " escape
 imap jj <esc>
 imap JJ <esc>
+
+" quit
+map ,f :q!<CR>
