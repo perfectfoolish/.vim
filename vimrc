@@ -14,3 +14,9 @@ imap JJ <esc>
 
 " quit
 map ,f :q!<CR>
+
+" space
+set expandtab
+set tabstop=2
+set shiftwidth=2
+autocmd FileType c setlocal shiftwidth=4 tabstop=4
