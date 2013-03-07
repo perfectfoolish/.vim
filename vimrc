@@ -20,3 +20,11 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 autocmd FileType c setlocal shiftwidth=4 tabstop=4
+
+" vimrc editing
+" I need a fake ~/.vimrc: runtime vimrc
+" http://www.derekwyatt.org/vim/the-vimrc-file/my-vimrc-file/
+map ,e :e ~/.vim/vimrc<CR>
+" When vimrc is edited, reload it
+" copied from http://amix.dk/vim/vimrc.html
+autocmd! bufwritepost vimrc source ~/.vim/vimrc
