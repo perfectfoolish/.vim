@@ -33,4 +33,9 @@ autocmd! bufwritepost vimrc source ~/.vim/vimrc
 set list
 set listchars=trail:+
 
+" status line
+
+set statusline=%F:\ %l
+set laststatus=2
+
 "
