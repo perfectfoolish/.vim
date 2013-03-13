@@ -4,6 +4,6 @@ Manage my 'runtimepath' with ease. In practical terms, pathogen.vim makes it sup
 
     sudo apt-get install exuberant-ctags ack-grep # for ubuntu
 
-    `sudo ln -s `which ack-grep` /bin/ack`
+    sudo ln -s `which ack-grep` /bin/ack
 
 ### install [happygrep](https://github.com/happypeter/happygrep)
