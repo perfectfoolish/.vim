@@ -38,4 +38,9 @@ set listchars=trail:+
 set statusline=%F:\ %l
 set laststatus=2
 
+" ack
+" sudo apt-get install ack-grep # on ubuntu
+" sudo ln -s `which ack-grep` /bin/ack
+map ,k :Ack <cword><ENTER>
+
 "
