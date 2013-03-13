@@ -28,3 +28,9 @@ map ,e :e ~/.vim/vimrc<CR>
 " When vimrc is edited, reload it
 " copied from http://amix.dk/vim/vimrc.html
 autocmd! bufwritepost vimrc source ~/.vim/vimrc
+
+" EOL whitespace
+set list
+set listchars=trail:+
+
+"
