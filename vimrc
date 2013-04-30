@@ -37,4 +37,11 @@ set laststatus=2
 " sudo ln -s `which ack-grep` /bin/ack
 map ,k :Ack <cword><ENTER>
 
-"
+" ctrlp.vim
+let g:ctrlp_map = ',,'
+let g:ctrlp_open_multiple_files = 'v'
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git)$',
+  \ 'file': '\v\.(log|jpg|png|jpeg)$',
+  \}
